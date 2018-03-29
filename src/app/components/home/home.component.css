@@ -1,0 +1,79 @@
+.team-bottom{
+  margin-top: 30px;
+}
+
+.team-content{
+  font-family: gill sans;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.text-know-more{
+  color: rgba(40, 167, 69, 1);
+  float: right;
+  text-decoration: none;
+}
+.text-know-more a{
+  text-decoration: none;
+}
+
+.color-name{
+  color: rgb(35, 140, 62);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 70vw;
+    left: 10%;
+  }
+
+  .portfolio-modal .modal-content h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  .portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .portfolio-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 50px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #212529;
+  }
+
+  .portfolio-modal .close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 50px;
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #212529;
+  }
+
+  .team-content[_ngcontent-c1] {
+    font-family: gill sans;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .classCookies{
+    width: 300px;
+    font-size: 0.9em;
+    left: 15px;
+  }
+}
