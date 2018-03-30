@@ -4,7 +4,7 @@
 
 .team-content{
   font-family: gill sans;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: justify;
 }
 
@@ -64,9 +64,9 @@
     background-color: #212529;
   }
 
-  .team-content[_ngcontent-c1] {
+  .team-content {
     font-family: gill sans;
-    font-size: 1.2em;
+    font-size: 0.95em;
     text-align: left;
     padding: 5px;
   }

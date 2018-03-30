@@ -131,32 +131,32 @@
           <tbody>
           <tr>
             <td>Lunes</td>
-            <td>10:00 - 13:00</td>
-            <td>18:00 - 22:00</td>
+            <td>09:00 - 13:00</td>
+            <td>17:00 - 22:00</td>
           </tr>
           <tr>
             <td>Martes</td>
             <td>09:00 - 13:00</td>
-            <td>18:00 - 22:00</td>
+            <td>17:00 - 22:00</td>
           </tr>
           <tr>
             <td>Miércoles</td>
-            <td>10:00 - 13:00</td>
-            <td>18:00 - 22:00</td>
+            <td>09:00 - 13:00</td>
+            <td>17:00 - 22:00</td>
           </tr>
           <tr>
             <td>Jueves</td>
             <td>09:00 - 13:00</td>
-            <td>18:00 - 22:00</td>
+            <td>17:00 - 22:00</td>
           </tr>
           <tr>
             <td>Viernes</td>
             <td>09:00 - 13:00</td>
-            <td>18:00 - 21:00</td>
+            <td>17:00 - 21:00</td>
           </tr>
           <tr>
             <td>Sábado</td>
-            <td>10:00 - 11:00</td>
+            <td>09:00 - 13:00</td>
             <td>-</td>
           </tr>
           </tbody>
@@ -219,7 +219,6 @@
   </div>
 </section>
 
-
 <!-- Footer -->
 <footer>
   <div class="container">
@@ -249,7 +248,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks pull-right">
           <li class="list-inline-item">
-            <a href="#">Aviso legal</a>
+            <a routerLink="/terms">Aviso legal</a>
           </li>
         </ul>
       </div>
@@ -275,7 +274,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Entrenamiento funcional</h2>
               <p class="item-intro text-muted">Impulsa a tu organismo a tener buena salud.</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/01-full.jpg" alt="">
               <p>Nuestro entrenamiento funcional basado en pesos libres (barras, anillas, trx, kettlebell, calistenia, etc…) se centra en la mejora de la condición física alejándonos de los trabajos musculares aislados, lo que nos ayuda a la mejora neuromuscular, coordinación intramuscular e intermuscular, musculatura estabilizadora, lateralidad, núcleo central, etc.</p>
 
               <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -305,7 +303,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Clases reducidas</h2>
               <p class="item-intro text-muted">Nuestros profesionales están siempre a disposición vuestra</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/02-full.jpg" alt="">
               <p>Los grupos reducidos en cada sesión de entranamiento están destinados para que la ejecución de los ejercicios se haga de la forma correcta, y para ello, nuestros profesionales están siempre atentos de cada movimiento realizado.
                 <br>Disponemos de amplios horarios que se pueden ajustar a vuestra disponibilidad.
               </p>
@@ -336,7 +333,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Mejora física</h2>
               <p class="item-intro text-muted">Ponte metas y llegarás lejos.</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/03-full.jpg" alt="">
               <p>Nuestra metodología de trabajo se basa en una mejora continua, evitando una monotonía en las sesiones de entrenamiento para que el cuerpo esté constantenmente en proceso de mejora.</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fa fa-times"></i>
@@ -365,7 +361,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Control de peso</h2>
               <p class="item-intro text-muted">Los datos hablan solos.</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/04-full.jpg" alt="">
               <p>Realizamos un seguimiento mensual de control de peso personalizado para analizar y valorar vuestra mejora física, y poder aconsejaros en función de vuestras necesidades.</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fa fa-times"></i>
@@ -394,7 +389,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase" style="font-size: 1.1em;">Entrenamientos personalizados</h2>
               <p class="item-intro text-muted">Nos adaptamos a cualquier situación.</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/05-full.jpg" alt="">
               <p>Siempre buscamos lo mejor de vosotros, para ello , encontrás en nuestros profesionales un trato cercano para conocer cuál son vuestros objetivos (pruebas para las fuerzas y cuerpos del estado, bomberos, tener mejor condición física, etc) </p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fa fa-times"></i>
@@ -423,7 +417,6 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">Rehabilitaciones</h2>
               <p class="item-intro text-muted">Empieza poco a poco y el problema desaparece.</p>
-              <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/06-full.jpg" alt="">
               <p>Los entrenamientos siempre están enfocados a la condición física de cada persona, pudiendo sacar un mayor partido a su rendimiento con el objetivo de que cada persona note mejoría en su salud y estado físico.</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fa fa-times"></i>
@@ -441,12 +434,13 @@
   <div class="modal-dialog classCookies">
     <div class="modal-content">
       <div class="modal-body">
-    <p>Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real
-      Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.</p>
-    </div>
+        <p>Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real
+          Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+          <a routerLink="/terms" target="_blank" class="btn btn-warning">Más información</a>
+        </p>
+      </div>
       <div class="modal-footer">
         <button type="button" id="okCookie" class="btn btn-success">Ok</button>
-        <a href="http://politicadecookies.com" target="_blank" class="btn btn-warning">Más información</a>
       </div>
     </div>
   </div>
